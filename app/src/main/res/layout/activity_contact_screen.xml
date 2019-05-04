@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact_screen"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/partua"
+        android:text="Contact_name"
+        android:textSize="33dp" />
+
+    <TextView
+        android:id="@+id/contact_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/partua"
+        android:text="Contact_num"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="38dp"
+        android:fontFamily="@font/partua"
+        android:text="Main: "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/partua"
+        android:text="E-mail:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/email_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_number"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:fontFamily="@font/partua"
+        android:text="abc"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/partua"
+        android:text="Contact ID:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/cont_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_cont"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="39dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:fontFamily="@font/partua"
+        android:text="id"
+        android:textSize="15dp" />
+</RelativeLayout>

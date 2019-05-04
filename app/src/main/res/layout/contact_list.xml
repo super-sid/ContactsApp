@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/parent_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:id="@+id/tv_Contact_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="#283747"
+                android:fontFamily="@font/partua"
+                android:layout_marginStart="10dp"
+                android:text="Akshay Kumar"/>
+            <TextView
+                android:id="@+id/tv_Contact_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/partua"
+                android:textSize="11dp"
+                android:layout_marginStart="11dp"
+                android:textColor="#909497"
+                android:text="+91 123"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
